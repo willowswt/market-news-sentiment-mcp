@@ -1,6 +1,6 @@
 {
   "name": "@willowswt/market-news-sentiment-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Streamable-HTTP & stdio MCP server for real-time Yahoo Finance stock/crypto quotes & options chains, Google Trends breakouts, Google News feeds, and Reddit/HackerNews social sentiment.",
   "type": "module",
   "main": "src/index.js",

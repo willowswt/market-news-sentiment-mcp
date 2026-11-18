@@ -1,16 +1,26 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.willowswt/market-news-sentiment-mcp",
-  "description": "Streamable-HTTP & stdio MCP server for real-time Yahoo Finance stock/crypto quotes & options chains,",
+  "title": "Real-Time Market Quotes, News & Social Sentiment MCP",
+  "description": "Real-time Yahoo Finance stock/crypto quotes & options, Google Trends, News & Reddit/HN sentiment.",
   "version": "1.0.0",
+  "websiteUrl": "https://apify.com/church_of_loujess/market-news-sentiment-mcp",
   "repository": {
     "url": "https://github.com/willowswt/market-news-sentiment-mcp",
     "source": "github"
   },
   "remotes": [
     {
-      "transport_type": "streamable-http",
-      "url": "https://church-of-loujess--market-news-sentiment-mcp.apify.actor/mcp"
+      "type": "streamable-http",
+      "url": "https://church-of-loujess--market-news-sentiment-mcp.apify.actor/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer <YOUR_APIFY_API_TOKEN> (free $5/mo credit at https://console.apify.com/settings/integrations)",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
     }
   ]
 }
