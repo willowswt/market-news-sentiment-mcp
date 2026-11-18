@@ -1,0 +1,16 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "io.github.willowswt/market-news-sentiment-mcp",
+  "description": "Streamable-HTTP & stdio MCP server for real-time Yahoo Finance stock/crypto quotes & options chains,",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/willowswt/market-news-sentiment-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "transport_type": "streamable-http",
+      "url": "https://church-of-loujess--market-news-sentiment-mcp.apify.actor/mcp"
+    }
+  ]
+}

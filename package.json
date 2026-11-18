@@ -1,0 +1,36 @@
+{
+  "name": "@willowswt/market-news-sentiment-mcp",
+  "version": "1.0.0",
+  "description": "Streamable-HTTP & stdio MCP server for real-time Yahoo Finance stock/crypto quotes & options chains, Google Trends breakouts, Google News feeds, and Reddit/HackerNews social sentiment.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "market-news-sentiment-mcp": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "start:http": "node src/index.js --http"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "yahoo-finance",
+    "stocks",
+    "crypto",
+    "google-trends",
+    "market-sentiment",
+    "finance",
+    "apify"
+  ],
+  "homepage": "https://apify.com/church_of_loujess/market-news-sentiment-mcp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/willowswt/market-news-sentiment-mcp.git"
+  },
+  "author": "Church of LouJess",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
